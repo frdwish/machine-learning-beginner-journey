@@ -25,6 +25,12 @@ The goal is to understand machine learning from the basics, build strong intuiti
 - Creating and reading a scatter plot (actual vs predicted)  
 - Step-by-step explanations inside the notebook
 
+### Day 3: Polynomial & Multiple Regression, Regularization
+- When linear regression is not enough (non-linear patterns)  
+- Polynomial features and how they create curves  
+- Multiple regression with more than one feature  
+- Regularization: Ridge and Lasso (why and how)  
+- Notebook included
 ---
 
 ## Goal of This Repository
@@ -41,10 +47,12 @@ I follow the chapters and recreate the ideas in my own notebooks.
 ## Repository Structure
 
 machine-learning-beginner-journey/
-│── Week1/
-│ ├── Day1_ML_Workflow.ipynb
-│ ├── Day2_Linear_Regression.ipynb
-│ └── (More days will be added)
+│── week1_core_ml_and_regression/
+│ ├── 01_ML_Workflow_TrainTestSplit.ipynb
+│ ├── 02_LinearRegression_DeepExplanation.ipynb
+│ ├── 03_Polynomial_Regression.ipynb
+│ ├── data/
+│ │ └── (optional datasets, not committed by default)
 │── README.md
 
 
