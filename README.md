@@ -31,6 +31,18 @@ The goal is to understand machine learning from the basics, build strong intuiti
 - Multiple regression with more than one feature  
 - Regularization: Ridge and Lasso (why and how)  
 - Notebook included
+
+### Day 4: Model Evaluation  
+Notebook:  
+`week1_core_ml_and_regression/04_Model_Evaluation.ipynb`
+
+Topics:
+- R² score  
+- Residual analysis  
+- Cross-validation  
+- Underfitting vs overfitting  
+- Model reliability  
+  
 ---
 
 ## Goal of This Repository
@@ -46,14 +58,17 @@ I follow the chapters and recreate the ideas in my own notebooks.
 
 ## Repository Structure
 
+```
 machine-learning-beginner-journey/
 │── week1_core_ml_and_regression/
-│ ├── 01_ML_Workflow_TrainTestSplit.ipynb
-│ ├── 02_LinearRegression_DeepExplanation.ipynb
-│ ├── 03_Polynomial_Regression.ipynb
-│ ├── data/
-│ │ └── (optional datasets, not committed by default)
+│   ├── 01_ML_Workflow_TrainTestSplit.ipynb
+│   ├── 02_LinearRegression_DeepExplanation.ipynb
+│   ├── 03_Polynomial_Regression.ipynb
+│   ├── 04_Model_Evaluation.ipynb
+│   ├── data/   (optional, not committed)
 │── README.md
+```
+
 
 
 
