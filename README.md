@@ -43,7 +43,23 @@ Topics:
 - Underfitting vs overfitting  
 - Model reliability  
   
----
+### Day 5: California Housing Regression Project  
+Notebook:  
+`week1_core_ml_and_regression/05_California_Housing_Regression.ipynb`
+
+Topics and steps included:
+- Load dataset using `sklearn.datasets.fetch_california_housing()`  
+- Basic data inspection (`.info()`, `.describe()`, missing values)  
+- Exploratory Data Analysis (correlation heatmap, scatter plots)  
+- Train-test split (`train_test_split`)  
+- Preprocessing: `StandardScaler()` inside a `Pipeline`  
+- Linear Regression training and prediction  
+- Evaluation metrics: MAE, RMSE, R²  
+- Residuals plot and interpretation  
+- 5-fold cross-validation using `cross_val_score()`  
+- Notes on next steps: feature engineering, regularized models, pipelines for production
+
+----
 
 ## Goal of This Repository
 I want to build a strong understanding of ML instead of blindly writing code. Everything here is explained in simple words for future revision.
@@ -65,20 +81,36 @@ machine-learning-beginner-journey/
 │   ├── 02_LinearRegression_DeepExplanation.ipynb
 │   ├── 03_Polynomial_Regression.ipynb
 │   ├── 04_Model_Evaluation.ipynb
+│   ├── 05_California_Housing_Regression.ipynb
 │   ├── data/   (optional, not committed)
 │── README.md
 ```
 
+---
 
 
+> Note: Make sure filenames and folder names match your local files before pushing.
 
 ---
 
-## How to Use This Repo
-1. Clone the repository  
-2. Open the notebooks in Jupyter or VS Code  
-3. Read the explanations and run the code  
-4. Learn step by step along with me
+## How to use this repo
+1. Clone the project  
+2. Open the notebooks in Jupyter Notebook or VS Code  
+3. Run the cells and follow the explanations  
+4. Review results, save selected plots to `images/`, and update notes
+
+---
+
+## Datasets
+- Large or private datasets should not be committed. Put them in `week1_core_ml_and_regression/data/` locally and add names to `.gitignore`.  
+- For the California housing experiments, use `sklearn.datasets.fetch_california_housing()` to load data programmatically in the notebook.
+
+---
+
+## Updates
+I will update this repository as I complete more parts of the learning plan.
+
+
 
 ---
 
