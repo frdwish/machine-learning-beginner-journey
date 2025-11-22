@@ -59,11 +59,27 @@ Topics and steps included:
 - 5-fold cross-validation using `cross_val_score()`  
 - Notes on next steps: feature engineering, regularized models, pipelines for production
 
+
+### Day 6: End-to-End ML Project
+
+Notebook:
+`week1_core_ml_and_regression/06_End_To_End_ML_Project.ipynb`
+
+Topics included:
+Load housing.csv dataset
+- Create train-test split with a custom strategy
+- Exploratory Data Analysis and visualization
+- Handling missing values
+- Categorical encoding
+- Creating a full preprocessing pipeline
+- Model training: Linear Regression and Random Forest
+- Fine-tuning using GridSearchCV
+- Final evaluation on the test set
+- Save the trained model and pipeline
 ----
 
 ## Goal of This Repository
 I want to build a strong understanding of ML instead of blindly writing code. Everything here is explained in simple words for future revision.
-
 ---
 
 ## Learning Source
@@ -82,6 +98,7 @@ machine-learning-beginner-journey/
 │   ├── 03_Polynomial_Regression.ipynb
 │   ├── 04_Model_Evaluation.ipynb
 │   ├── 05_California_Housing_Regression.ipynb
+|   ├── 06_End_To_End_ML_Project.ipynb
 │   ├── data/   (optional, not committed)
 │── README.md
 ```
@@ -114,5 +131,3 @@ I will update this repository as I complete more parts of the learning plan.
 
 ---
 
-## Updates
-I will update this repository daily as I complete more parts of my learning plan.
